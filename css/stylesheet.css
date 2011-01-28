@@ -1,6 +1,4 @@
 * {
-	margin: 0;
-	padding: 0;
 	font-family: Georgia, Palatino, Times, 'Times New Roman', sans-serif;
 	font-size: 15px;
 	line-height: 20px;
@@ -17,17 +15,17 @@ a {
 
 a:link,
 a:visited {
-	color: #f30;
+	color: #7a2a14;
 }
 
 a:hover {
-	color: #f90;
+	text-decoration: underline;
 }
 
 #sidebar {
-	border-right: 1px solid #ccc;
+	border-right: 1px solid #333;
 	float: left;
-	width: 120px;
+	width: 80px;
 	padding: 10px 10px 0 0;
 	margin: 10px 0 0 0;
 }
