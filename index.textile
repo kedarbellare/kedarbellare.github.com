@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Kedar Bellare
+title: Home
 ---
 
 I am a graduate student pursuing my M.S/Ph.D in "Computer Science":http://www.cs.umass.edu at "University of Massachusetts, Amherst":http://www.umass.edu (UMass). Prior to UMass, I completed my undergraduate studies (B.Tech) at "IIT Bombay":http://www.cse.iitb.ac.in/ in 2004. 
