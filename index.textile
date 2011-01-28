@@ -3,4 +3,7 @@ layout: default
 title: Kedar Bellare
 ---
 
-This is just a test.
+I am a graduate student pursuing my M.S/Ph.D in "Computer Science":http://www.cs.umass.edu at "University of Massachusetts, Amherst":http://www.umass.edu (UMass). 
+Prior to UMass, I completed my undergraduate studies (B.Tech) at "IIT Bombay":http://www.cse.iitb.ac.in/ in 2004. 
+Currently, I am working in the "Information Extraction and Synthesis Laboratory":http://iesl.cs.umass.edu/ (IESL). My advisor is Prof. "Andrew McCallum":http://www.cs.umass.edu/~mccallum/. 
+I apply machine learning techniques to problems in information extraction and natural language processing.
