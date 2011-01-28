@@ -1,5 +1,1 @@
-layout: site
-title: Kedar Bellare
--
-
 This is just a test.
