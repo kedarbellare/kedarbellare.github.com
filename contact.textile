@@ -1,0 +1,17 @@
+---
+layout: default
+title: Contact
+---
+
+h2. Contact Information
+
+h3. _Office address_:
+
+Room 264,
+Department of Computer Science,
+140 Governors Drive,
+Amherst, MA 01003
+
+h3. _Email_:
+
+kedarb <AT> cs.umass.edu
