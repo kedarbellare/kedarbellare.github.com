@@ -1,0 +1,361 @@
+List of GE criteria used:
+
+============== GE CONSTRAINTS ==============
+
+============ GE ALIGNMENT CONSTRAINTS ============
+
+=== Align info-gain:
+Adding rank[0] feature=ALIGN:PREFIX_MATCH4
+[p=0.95] to ftr constraints
+Adding rank[1] feature=ALIGN:JARO_WINKLER_BIN=0.95
+[p=0.9] to ftr constraints
+Adding rank[2] feature=ALIGN:TOKEN_MATCH
+[p=0.9] to ftr constraints
+Adding rank[3] feature=ALIGN:JARO_WINKLER_BIN=0.1
+[p=0.6] to ftr constraints
+Adding rank[4] feature=ALIGN:TOKEN_LC_CLEAN_MATCH@[1, 1]
+[p=0.8] to ftr constraints
+Adding rank[5] feature=ALIGN:JARO_WINKLER_BIN=0.95@[1, 1]
+[p=0.8] to ftr constraints
+Adding rank[6] feature=ALIGN:TOKEN_LC_CLEAN_NONMATCH
+[p=0.6] to ftr constraints
+Adding rank[7] feature=ALIGN:JARO_WINKLER_BIN=0.6
+[p=0.4] to ftr constraints
+Adding rank[8] feature=ALIGN:JARO_WINKLER_BIN=0.7@[1, 1]
+[p=0.4] to ftr constraints
+Adding rank[9] feature=ALIGN:JARO_WINKLER_BIN=0.6@[-1, -1]
+[p=0.4] to ftr constraints
+
+============ GE EXTRACT CONSTRAINTS ============
+
+=== Info-gain[author]:
+Adding rank[0] feature=EXTR:TARGET=CONTAINS_INITIAL
+[p=0.95] to ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=CONTAINS_ONE_CAPS
+[p=0.9] to ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=CONTAINS_ONE_ALPHA
+[p=0.9] to ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=CONTAINS_INITIAL@-1
+[p=0.9] to ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=CONTAINS_ONE_CAPS@-1
+[p=0.8] to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=CONTAINS_ONE_ALPHA@-1
+[p=0.8] to ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=CONTAINS_CAPS
+[p=0.7] to ftr-lbl constraints
+Adding rank[7] feature=EXTR:TARGET=LEX_AUTH_LAST
+[p=0.6] to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=CONTAINS_ONE_CAPS@3
+[p=0.9] to ftr-lbl constraints
+Adding rank[9] feature=EXTR:TARGET=CONTAINS_INITIAL@3
+[p=0.9] to ftr-lbl constraints
+
+=== Info-gain[title]:
+Adding rank[0] feature=EXTR:TARGET=WINDOW=WORD=for
+[p=0.9] to ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=WINDOW=WORD=Maintenance
+[p=0.95] to ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=CONTAINS_ONE_CAPS@-7
+[p=0.7] to ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=CONTAINS_INITIAL@-7
+[p=0.7] to ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=LEX_TITLE_MED@1
+[p=0.4] to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=LEX_TITLE_START_MED@1
+[p=0.6] to ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=LEX_TITLE_MED@2
+[p=0.4] to ftr-lbl constraints
+Adding rank[7] feature=EXTR:TARGET=CONTAINS_ONE_ALPHA@-7
+[p=0.7] to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=LEX_TITLE_MED@3
+[p=0.4] to ftr-lbl constraints
+Adding rank[9] feature=EXTR:TARGET=LEX_TITLE_HIGH@1
+[p=0.6] to ftr-lbl constraints
+
+=== Info-gain[pages]:
+Adding rank[0] feature=EXTR:TARGET=CONTAINS_PAGES
+[p=0.95] to ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=PREFIX[3]=pag
+[p=0.95] to ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=CHARNG=page 
+[p=0.95] to ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=PREFIX[1]=p 
+[p=0.8] to ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=WORD=pages 
+[p=0.95] to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=PREFIX[4]=page
+[p=0.95] to ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=CHARNG=pag 
+[p=0.95] to ftr-lbl constraints
+Adding rank[7] feature=EXTR:TARGET=SUFFIX[4]=ages
+[p=0.95] to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=CHARNG=ages 
+[p=0.95] to ftr-lbl constraints
+Adding rank[9] feature=EXTR:TARGET=PREFIX[2]=pa 
+[p=0.95] to ftr-lbl constraints
+
+=== Info-gain[date]:
+Adding rank[0] feature=EXTR:TARGET=CONTAINS_YEAR
+[p=0.95] to ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=CONTAINS_FOUR_NUMS
+[p=0.95] to ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=PREFIX[2]=19 
+[p=0.95] to ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=CHARNG=99 
+[p=0.95] to ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=PREFIX[3]=199
+[p=0.95] to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=CHARNG=19 
+[p=0.95] to ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=CHARNG=199 
+[p=0.95] to ftr-lbl constraints
+Adding rank[7] feature=EXTR:TARGET=CONTAINS_NUMS
+[p=0.7] to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=PREFIX[1]=1 
+[p=0.7] to ftr-lbl constraints
+Adding rank[9] feature=EXTR:TARGET=PREFIX[3]=200
+[p=0.95] to ftr-lbl constraints
+
+=== Info-gain[volume]:
+Adding rank[0] feature=EXTR:TARGET=CONTAINS_TWO_NUMS
+[p=0.6] to ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=PREFIX[2]=vo
+[p=0.95] to ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=CHARNG=vo 
+[p=0.9] to ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=CHARNG=vol 
+[p=0.9] to ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=CONTAINS_ONE_NUMS@1
+[p=0.6] to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=SUFFIX[2]=ol
+[p=0.8] to ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=WORD=vol 
+[p=0.95] to ftr-lbl constraints
+Adding rank[7] feature=EXTR:TARGET=CONTAINS_NUMS
+[p=0.4] to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=PREFIX[3]=vol
+[p=0.9] to ftr-lbl constraints
+Adding rank[9] feature=EXTR:TARGET=CHARNG=ol 
+[p=0.4] to ftr-lbl constraints
+
+=== Info-gain[venue]:
+Adding rank[0] feature=EXTR:TARGET=WINDOW=WORD=on
+[p=0.8] to ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=CONTAINS_ALPHA_NUM@-10
+[p=0.6] to ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=CONTAINS_ALPHA@-10
+[p=0.6] to ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=WINDOW=WORD=Conference
+[p=0.95] to ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=CONTAINS_ALPHA_NUM@-9
+[p=0.4] to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=CONTAINS_ALPHA@-9
+[p=0.4] to ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=WINDOW=WORD=International
+[p=0.95] to ftr-lbl constraints
+Adding rank[7] feature=EXTR:TARGET=CONTAINS_ALPHA_NUM@-8
+[p=0.4] to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=PREFIX[1]=I 
+[p=0.9] to ftr-lbl constraints
+Adding rank[9] feature=EXTR:TARGET=CONTAINS_ALPHA@-8
+[p=0.4] to ftr-lbl constraints
+
+=== Info-gain[number]:
+Adding rank[0] feature=EXTR:TARGET=CONTAINS_ONE_NUMS
+[p=0.6] to ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=WORD=4 
+[p=0.9] to ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=CONTAINS_TWO_NUMS@-1
+[p=0.4] to ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=WORD=no 
+[p=0.95] to ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=WORD=3 
+[p=0.95] to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=WORD=1 
+[p=0.6] to ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=CONTAINS_NUMS@-1
+[p=0.2] to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=WORD=2 
+[p=0.6] to ftr-lbl constraints
+Adding rank[9] feature=EXTR:TARGET=WINDOW=WORD=vol
+[p=0.4] to ftr-lbl constraints
+Adding rank[10] feature=EXTR:TARGET=CONTAINS_NUMS
+[p=0.1] to ftr-lbl constraints
+
+=== Info-gain[editor]:
+Adding rank[0] feature=EXTR:TARGET=PREFIX[2]=ed
+[p=0.95] to ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=CHARNG=dito 
+[p=0.95] to ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=PREFIX[3]=edi
+[p=0.95] to ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=PREFIX[4]=edit
+[p=0.95] to ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=CHARNG=edit 
+[p=0.95] to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=CHARNG=dit 
+[p=0.95] to ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=CHARNG=itor 
+[p=0.95] to ftr-lbl constraints
+Adding rank[7] feature=EXTR:TARGET=WINDOW=WORD=Pajdla
+[p=0.95] to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=WINDOW=WORD=Tesauro
+[p=0.95] to ftr-lbl constraints
+Adding rank[9] feature=EXTR:TARGET=WINDOW=WORD=Touretzky
+[p=0.95] to ftr-lbl constraints
+
+=== Info-gain[publisher]:
+Adding rank[0] feature=EXTR:TARGET=PREFIX[3]=Spr
+[p=0.95] to ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=PREFIX[4]=Spri
+[p=0.95] to ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=CHARNG=Spr 
+[p=0.95] to ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=CHARNG=Spri 
+[p=0.95] to ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=CHARNG=prin 
+[p=0.95] to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=CHARNG=inge 
+[p=0.9] to ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=CHARNG=nger 
+[p=0.9] to ftr-lbl constraints
+Adding rank[7] feature=EXTR:TARGET=WORD=Press 
+[p=0.95] to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=SUFFIX[4]=ress
+[p=0.95] to ftr-lbl constraints
+Adding rank[9] feature=EXTR:TARGET=PREFIX[4]=Pres
+[p=0.95] to ftr-lbl constraints
+
+=== Info-gain[series]:
+Adding rank[0] feature=EXTR:TARGET=WINDOW=WORD=Notes
+[p=0.9] to ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=WINDOW=WORD=Lecture
+[p=0.7] to ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=WORD=Notes 
+[p=0.95] to ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=PREFIX[4]=Note
+[p=0.95] to ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=CHARNG=Note 
+[p=0.95] to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=PREFIX[3]=Lec
+[p=0.95] to ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=CHARNG=Lec 
+[p=0.95] to ftr-lbl constraints
+Adding rank[7] feature=EXTR:TARGET=CHARNG=Lect 
+[p=0.95] to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=SUFFIX[4]=otes
+[p=0.95] to ftr-lbl constraints
+Adding rank[9] feature=EXTR:TARGET=CHARNG=otes 
+[p=0.95] to ftr-lbl constraints
+
+=== Info-gain[O]:
+Adding rank[0] feature=EXTR:TARGET=WORD=and 
+[p=0.7] to ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=PREFIX[2]=an 
+[p=0.7] to ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=CHARNG=and 
+[p=0.7] to ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=SUFFIX[2]=nd 
+[p=0.6] to ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=CHARNG=nd 
+[p=0.6] to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=PREFIX[1]=a 
+[p=0.6] to ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=SUFFIX[1]=d 
+[p=0.6] to ftr-lbl constraints
+Adding rank[7] feature=EXTR:TARGET=CHARNG=an 
+[p=0.4] to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=CONTAINS_THREE_ALPHA
+[p=0.4] to ftr-lbl constraints
+Adding rank[9] feature=EXTR:TARGET=LEX_STOP 
+[p=0.2] to ftr-lbl constraints
+
+=== Info-gain[tech]:
+Adding rank[0] feature=EXTR:TARGET=CONTAINS_PUNCT  [p=0.05] to
+ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=CONTAINS_DOT  [p=0.05] to
+ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=CONTAINS_INITIAL  [p=0.05] to
+ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=CONTAINS_CAPS  [p=0.05] to
+ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=CONTAINS_ONE_CAPS  [p=0.05]
+to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=CONTAINS_ALPHA  [p=0.05] to
+ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=CONTAINS_ONE_ALPHA  [p=0.05]
+to ftr-lbl constraints
+Adding rank[7] feature=EXTR:TARGET=CONTAINS_ALPHA_NUM  [p=0.05]
+to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=WORD=I  [p=0.05] to ftr-lbl
+constraints
+Adding rank[9] feature=EXTR:TARGET=LEX_TITLE_HIGH  [p=0.05] to
+ftr-lbl constraints
+
+=== Info-gain[institution]:
+Adding rank[0] feature=EXTR:TARGET=CONTAINS_PUNCT  [p=0.05] to
+ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=CONTAINS_DOT  [p=0.05] to
+ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=CONTAINS_INITIAL  [p=0.05] to
+ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=CONTAINS_CAPS  [p=0.05] to
+ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=CONTAINS_ONE_CAPS  [p=0.05]
+to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=CONTAINS_ALPHA  [p=0.05] to
+ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=CONTAINS_ONE_ALPHA  [p=0.05]
+to ftr-lbl constraints
+Adding rank[7] feature=EXTR:TARGET=CONTAINS_ALPHA_NUM  [p=0.05]
+to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=WORD=I  [p=0.05] to ftr-lbl
+constraints
+Adding rank[9] feature=EXTR:TARGET=LEX_TITLE_HIGH  [p=0.05] to
+ftr-lbl constraints
+
+=== Info-gain[web]:
+Adding rank[0] feature=EXTR:TARGET=CONTAINS_PUNCT  [p=0.05] to
+ftr-lbl constraints
+Adding rank[1] feature=EXTR:TARGET=CONTAINS_DOT  [p=0.05] to
+ftr-lbl constraints
+Adding rank[2] feature=EXTR:TARGET=CONTAINS_INITIAL  [p=0.05] to
+ftr-lbl constraints
+Adding rank[3] feature=EXTR:TARGET=CONTAINS_CAPS  [p=0.05] to
+ftr-lbl constraints
+Adding rank[4] feature=EXTR:TARGET=CONTAINS_ONE_CAPS  [p=0.05]
+to ftr-lbl constraints
+Adding rank[5] feature=EXTR:TARGET=CONTAINS_ALPHA  [p=0.05] to
+ftr-lbl constraints
+Adding rank[6] feature=EXTR:TARGET=CONTAINS_ONE_ALPHA  [p=0.05]
+to ftr-lbl constraints
+Adding rank[7] feature=EXTR:TARGET=CONTAINS_ALPHA_NUM  [p=0.05]
+to ftr-lbl constraints
+Adding rank[8] feature=EXTR:TARGET=WORD=I  [p=0.05] to ftr-lbl
+constraints
+Adding rank[9] feature=EXTR:TARGET=LEX_TITLE_HIGH  [p=0.05] to
+ftr-lbl constraints
+
+=== Info-gain[note]:
+Adding rank[2] feature=EXTR:TARGET=WINDOW=WORD=350 351
+[p=0.6] to ftr-lbl constraints
+Adding rank[16] feature=EXTR:TARGET=PREFIX[3]=sho
+[p=0.2] to ftr-lbl constraints
+Adding rank[17] feature=EXTR:TARGET=CHARNG=ape 
+[p=0.2] to ftr-lbl constraints
+Adding rank[18] feature=EXTR:TARGET=CHARNG=hor
+[p=0.2] to ftr-lbl constraints
+Adding rank[19] feature=EXTR:TARGET=WINDOW=WORD=paper
+[p=0.2] to ftr-lbl constraints
+Adding rank[20] feature=EXTR:TARGET=LEX_JOURNAL@-10
+[p=0.1] to ftr-lbl constraints
+Adding rank[21] feature=EXTR:TARGET=LEX_CONFERENCE@-10
+[p=0.1] to ftr-lbl constraints
+Adding rank[22] feature=EXTR:TARGET=SUFFIX[2]=rt
+[p=0.1] to ftr-lbl constraints
+Adding rank[23] feature=EXTR:TARGET=PREFIX[2]=sh
+[p=0.1] to ftr-lbl constraints
+Adding rank[24] feature=EXTR:TARGET=CHARNG=ort 
+[p=0.1] to ftr-lbl constraints
+
+
