@@ -1,0 +1,12 @@
+---
+layout: default
+title: Code
+---
+
+All the code that I have written or contributed to.
+
+"Mallet":http://mallet.cs.umass.edu
+
+"Factorie":http://code.google.com/p/factorie
+
+"Dynprog":https://github.com/kedarbellare/dynprog is a generic dynamic programming toolkit that extends the "unsupervised modeling toolkit":http://www.cs.berkeley.edu/~pliang/software/unsupervised-modeling-1.0.zip written by Percy Liang. It depends on "tools":https://github.com/kedarbellare/tools and also on the "optimization":http://code.google.com/p/pr-toolkit package from the posterior regularization toolkit written by Joao Graca.
