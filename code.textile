@@ -3,9 +3,11 @@ layout: default
 title: Code
 ---
 
-All the code that I have written or contributed to.
+Some of the code that I have written or contributed to.
 
 "Mallet":http://mallet.cs.umass.edu
+
+"PartialCRF":http://kedarbellare.github.com/partialcrf.tgz is an extension of linear-chain CRFs to learning with partially-labeled data sequences. Depends on the mallet package.
 
 "Factorie":http://code.google.com/p/factorie
 
