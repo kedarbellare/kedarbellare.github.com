@@ -7,5 +7,5 @@ For the latest, please see "LinkedIn":https://www.linkedin.com/in/kedar-bellare-
 
 Previously, I was a graduate student pursuing my M.S/Ph.D in "Computer Science":http://www.cs.umass.edu at "University of Massachusetts, Amherst":http://www.umass.edu (UMass). Prior to UMass, I completed my undergraduate studies (B.Tech) at "IIT Bombay":http://www.cse.iitb.ac.in/ in 2004.
 
-I worked in the "Information Extraction and Synthesis Laboratory":http://iesl.cs.umass.edu/ (IESL) where I applied machine learning techniques to problems in information extraction and natural language processing.. My advisor was Prof. "Andrew McCallum":http://www.cs.umass.edu/~mccallum/.
+I worked in the "Information Extraction and Synthesis Laboratory":http://iesl.cs.umass.edu/ (IESL) where I applied machine learning techniques to problems in information extraction and natural language processing. My advisor was Prof. "Andrew McCallum":http://www.cs.umass.edu/~mccallum/.
 
